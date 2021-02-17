@@ -130,5 +130,5 @@ let fruits = new Map([
 	["blueberry", "blue"]
   ]);
     for (let [fruit, color] of fruits) {
-  	console.log(`X - ${fruit}, Y - ${color}`)
+  	console.log(`X - ${fruit}, Y - ${color}`);
   };
