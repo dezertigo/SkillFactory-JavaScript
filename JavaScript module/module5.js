@@ -44,7 +44,7 @@ if (typeof x === 'number') {
 
 
 let text = prompt('Введите текст, который нужно перевернуть');
-let reversedText = rev.split('').reverse().join('');
+let reversedText = text.split('').reverse().join('');
 console.log(reversedText);
 
 
